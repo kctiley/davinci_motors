@@ -1,28 +1,19 @@
-== README
+== DaVinci Motors
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails application I developed as
+part of the Building the Toolbelt of a Junior Ruby
+on Rails Developer class I took in the spring of 2015.
 
-Things you may want to cover:
+Features:
 
-* Ruby version
+    * TBD
 
-* System dependencies
+Usage:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    clone the repo locally
+    cd davinci_motors
+    bundle
+    rails s
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Visit your copy at http://localhost:3000/
