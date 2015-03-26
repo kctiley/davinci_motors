@@ -7,6 +7,7 @@ gem 'factory_girl_rails'
 
 group :test do
   gem 'capybara'
+  gem 'launchy'
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
