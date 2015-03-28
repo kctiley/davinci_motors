@@ -5,6 +5,7 @@ gem 'guard-bundler'
 gem 'guard-rspec'
 gem 'factory_girl_rails'
 gem 'bcrypt'
+gem 'faker'
 
 group :test do
   gem 'capybara'
