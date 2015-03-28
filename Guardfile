@@ -24,7 +24,7 @@ end
 
 guard :rspec, cmd: "bundle exec rspec",
   all_on_start: true,
-  all_on_pass: true do
+  all_after_pass: true do
   require "guard/rspec/dsl"
   dsl = Guard::RSpec::Dsl.new(self)
 

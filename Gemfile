@@ -4,10 +4,12 @@ gem 'rspec-rails'
 gem 'guard-bundler'
 gem 'guard-rspec'
 gem 'factory_girl_rails'
+gem 'bcrypt'
 
 group :test do
   gem 'capybara'
   gem 'launchy'
+  gem 'shoulda-matchers'
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
